@@ -9,7 +9,7 @@ nginx支持以下几种负载均衡方法。
 * __IP哈希__ - 用哈希函数决定下一个请求发往的服务器，基于客户端的IP地址。
 ### 默认的负载均衡配置
 下面就是一个nginx简单的负载均衡的例子
-```json
+```
 http {
     upstream myapp1 {
         server serv1.exapmle.com;
