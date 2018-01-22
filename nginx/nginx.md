@@ -1,4 +1,4 @@
-##<center>nginx文档</center>
+## <center>nginx文档</center>
 * 安装nginx
 * 从代码编译nginx
 * 新手指南
