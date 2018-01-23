@@ -1,4 +1,6 @@
-## 开发支持平滑升级（优雅重启）的HTTP服务
+## Golang开发支持平滑升级（优雅重启）的HTTP服务
+__tabalt__ 2016年02月17日发布
+
 原文链接：http://tabalt.net/blog/gracef... 
 Golang支持平滑升级（优雅重启）的包已开源到Github：https://github.com/tabalt/gracehttp，欢迎使用和贡献代码。
 
@@ -424,3 +426,8 @@ func main() {
     }
 }
 ```
+测试平滑升级（优雅重启）的效果，可以参考下面这个页面的说明：
+
+https://github.com/tabalt/gracehttp#demo
+
+使用过程中有任何问题和建议，欢迎提交issue反馈，也可以Fork到自己名下修改之后提交pull request。
